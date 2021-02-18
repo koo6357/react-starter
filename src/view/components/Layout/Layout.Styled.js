@@ -1,5 +1,6 @@
 import styled from 'styled-components';
-import {pxToRem, media, breakPoint} from "../../../lib/Styled";
+import {pxToRem} from "../../../styled/Util.Styled";
+import {breakPoint, media} from "../../../styled/Responsive.Styled";
 
 export const PageContainer = styled.div`
     flex: 1;
